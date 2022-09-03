@@ -1,0 +1,75 @@
+body{
+    background: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+*{
+    /* border: 1px dashed red;
+    min-height: 10px; */
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    height: 100vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+}
+.card{
+    background: white;
+    width: 558px;
+    /* height: 366px; */
+    height: 750px;
+    margin: auto;
+    /* align-items: center; */
+}
+.card-header{
+    display: flex;
+    justify-content:space-between;
+}
+.header-left-1{
+    display: flex;
+}
+.header-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .header-right{
+     display: flex;
+    align-items: center; 
+} */
+.header-center{
+    font-size: small;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    padding: 10px;
+}
+.header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+.footer-top{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.footer-top-right{
+    padding-right: 15px;
+}
+.footer-bottom > p + p {
+    padding-top: 15px;
+}
+.footer-bottom{
+    /* padding: 10px; */
+    padding-top: 30px;
+    padding-left: 10px;
+}
+i{
+    padding: 3px;
+}
